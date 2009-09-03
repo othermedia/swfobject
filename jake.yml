@@ -1,0 +1,15 @@
+---
+source_directory:     .
+build_directory:      build
+layout:               together
+builds:
+  min:
+    packer:           false
+packages:
+  swfobject:
+    files:
+      - swfobject
+    meta:
+      provides:
+        - swfobject
+
